@@ -1,0 +1,11 @@
+num_addr_map = 9
+strdim addr_map num_addr_map
+addr_map[0] = "E6320000,000000,bootparam_sa0-4x2g.srec"
+addr_map[1] = "E6304000,040000,cr7_loader.srec"
+addr_map[2] = "E6320000,0C0000,cert_header_sa3.srec"
+addr_map[3] = "70000000,740000,cr7_rtos.srec"
+addr_map[4] = "E6304000,140000,bl2-h3ulcb-4x2g.srec"
+addr_map[5] = "E6320000,180000,cert_header_sa6-4x2g.srec"
+addr_map[6] = "44000000,1C0000,bl31-h3ulcb-4x2g.srec"
+addr_map[7] = "44100000,200000,tee-h3ulcb.srec"
+addr_map[8] = "50000000,640000,u-boot-elf-h3ulcb.srec"
